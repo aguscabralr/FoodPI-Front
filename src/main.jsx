@@ -9,7 +9,7 @@ import store from "./redux/store";
 
 import axios from "axios";
 // axios.defaults.baseURL = "http://localhost:3001/foodpi";
-axios.defaults.baseURL = "https://https://foodpi-back.onrender.com/fooodpi";
+axios.defaults.baseURL = "https://foodpi-back.onrender.com/fooodpi";
 
 createRoot(document.getElementById("root")).render(
 	<Provider store={store}>
